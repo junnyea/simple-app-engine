@@ -11,8 +11,8 @@ This example demonstrate how to deploy a Spring Boot Application to Google App E
   }
   b. apply plugin: 'com.google.cloud.tools.appengine' //Added for Google App Engine\
 4. Git Clone to AppEngine
-5. Run GAE commands
-  a. Test: Gradle bootRun
+5. Run GAE commands <br>
+  a. Test: Gradle bootRun <br>
   b. Deploy: Gradle appengineDeploy
   
   
