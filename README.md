@@ -4,10 +4,10 @@ This example demonstrate how to deploy a Spring Boot Application to Google App E
 
 1. Download Spring Boot App from https://spring.io/guides/gs/rest-service/
 2. Add app.yaml to src/main/appengine/app.yaml (Needed by AppEngine)
-3. Add in plugin for in build.gradle
+3. Add in plugin for in build.gradle <br>
   a. dependencies {
   classpath("com.google.cloud.tools:appengine-gradle-plugin:1.3.0") //Added for Google App Engine
-  }
+  } <br>
   b. apply plugin: 'com.google.cloud.tools.appengine' //Added for Google App Engine
 4. Git Clone to AppEngine
 5. Run GAE commands <br>
